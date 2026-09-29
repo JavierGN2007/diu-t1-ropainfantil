@@ -127,3 +127,19 @@ flowchart TD
 
 #### Pantalla 7: Perfil
 ![07.-Perfil](capturas/wireframes/07.-Perfil.png)
+
+### 3.3.-Guía de estilo Material Design 3
+
+* **primary/onPrimary(Claro):** Ratio de 6.44
+* **primaryContainer/onPrimaryContainer(Claro):** Ratio de 7.25
+* **secondary/onSecondary(Claro):** Ratio de 6.44
+* **tertiary/onTertiary(Claro):** Ratio de 6.45
+* **surface/onSurface(Claro):** Ratio de 16.23
+* **error/onError(Claro):** Ratio de 6.46
+
+* **primary/onPrimary(Oscuro):** Ratio de 7.69
+* **primaryContainer/onPrimaryContainer(Oscuro):** Ratio de 7.25
+* **secondary/onSecondary(Oscuro):** Ratio de 7.73
+* **tertiary/onTertiary(Oscuro):** Ratio de 7.68
+* **surface/onSurface(Oscuro):** Ratio de 14.34
+* **error/onError(Oscuro):** Ratio de 7.71
