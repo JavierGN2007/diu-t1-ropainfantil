@@ -43,7 +43,7 @@ El público objetivo de esta aplicación serían:
 Suele abrir la aplicación cuando está libre, usando exclusivamente el móvil con la mano derecha. Ella busca reponer ropa básica que a sus hijos les queda pequeña de forma rápida. Como frustraciones cuenta con los formularios de checkout, los pequeños selectores de talla despegables o aplicaciones que borran productos del carrito sin opción de recuperarlos
 
 
-### Persona 2: Marcos Martín (Abuelo de 78 años)
+#### Persona 2: Marcos Martín (Abuelo de 78 años)
 
 
 Compra usando gafas para poder ver la pantalla y quiere hacerle un regalo a su nieta de 3 años. Él quiere encontrar una prenda sin consultar con los padres. Como frustraciones cuenta con las letras pequeñas, nombres técnicos de prendas o la posibilidad de equivocarse de talla
@@ -67,3 +67,63 @@ Compra usando gafas para poder ver la pantalla y quiere hacerle un regalo a su n
 * **Miedo a errores accidentales en el carrito:** Al hacer la compra rápido, los usuarios podrían tocar sin querer el botón para eliminar el carrito, perdiendo así su selección. Como **Decisión de Diseño**, se mostraría un botón de "Deshacer" al eliminar un producto del carrito para restaurarlo inmediatamente
 * **Abandono ante validaciones de checkout confusas:** Los formularios que solo marcan errores generales sin especificar el campo que falló hacen que los usuarios más mayores abandonen la aplicación. Como **Decisión de Diseño**, habría que usar text fields con estados de error integrados
 
+
+## SECCIÓN 3: Diseño de la interfaz
+
+### 3.1.-Mapa de navegación
+
+```mermaid
+flowchart TD
+    %% Barra de navegación inferior
+    subgraph NAV["Navigation Bar (3 Destinos Principales)"]
+        P1["1. Inicio"]
+        P7["7. Perfil / Favoritos<br/>(Palabra del día)"]
+        P4["4. Carrito"]
+    end
+
+    %% Pantallas secundarias y flujos
+    P2["2. Catálogo<br/>(Filter chips y ordenación)"]
+    P3["3. Detalle de Producto<br/>(Carrusel y Selector de talla)"]
+    BS["Bottom Sheet:<br/>Guía de Tallas (Overlay)"]
+    SB["Snackbar:<br/>Deshacer eliminación"]
+    P5["5. Checkout / Formulario<br/>(Estado de error)"]
+    P6["6. Confirmación de Pedido<br/>(Resumen y vuelta a inicio)"]
+
+    %% Navegación entre destinos principales
+    P1 <--> P7
+    P1 <--> P4
+    P7 <--> P4
+
+    %% Flujo de compra completo
+    P1 -->|Seleccionar categoría o buscar| P2
+    P2 -->|Pulsar producto| P3
+    P3 -.->|Botón 'Guía de tallas'| BS
+    P3 -->|Añadir al carrito| P4
+    P4 -.->|Eliminar artículo| SB
+    P4 -->|Tramitar pedido| P5
+    P5 -->|Pagar pedido| P6
+    P6 -->|Volver al inicio| P1
+```
+
+### 3.2.-Wireframes
+
+#### Pantalla 1: Inicio
+![01.-Inicio](capturas/wireframes/01.-Inicio.png)
+
+#### Pantalla 2: Catálogo
+![02.-Catálogo](capturas/wireframes/02.-Catálogo.png)
+
+#### Pantalla 3: Detalle de producto
+![03.-Detalle](capturas/wireframes/03.-Detalle.png)
+
+#### Pantalla 4: Carrito de compra
+![04.-Carrito](capturas/wireframes/04.-Carrito.png)
+
+#### Pantalla 5: Checkout
+![05.-Checkout](capturas/wireframes/05.-Checkout.png)
+
+#### Pantalla 6: Confirmación
+![06.-Confirmación](capturas/wireframes/06.-Confirmación.png)
+
+#### Pantalla 7: Perfil
+![07.-Perfil](capturas/wireframes/07.-Perfil.png)
