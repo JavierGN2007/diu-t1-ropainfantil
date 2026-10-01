@@ -143,3 +143,7 @@ flowchart TD
 * **tertiary/onTertiary(Oscuro):** Ratio de 7.68
 * **surface/onSurface(Oscuro):** Ratio de 14.34
 * **error/onError(Oscuro):** Ratio de 7.71
+
+
+
+Palabra del día: 29
