@@ -1,4 +1,4 @@
-# Documentación de la interfaz — Pequeños Pasos
+# Documentación de la interfaz — Estilo Infantil
 
 ## SECCIÓN 1: Justificación del diseño
 
@@ -168,9 +168,6 @@ flowchart TD
 ![07.-Perfil](capturas/prototipo/07.-Perfil.png)
 
 
-Palabra del día: 29
-
-
 ## SECCIÓN 4: Validación y pruebas
 
 ### 4.1.-Metodología
@@ -210,3 +207,28 @@ Las pruebas realizadas sobre el prototipo interactivo de Figma:
 ### 4.3.-Iteraciones y mejoras
 
 Se ha mejorado el botón "Añadir al carrito" para que mantenga una estética similar al resto de botones de la aplicación y dejar claro cual es la acción principal de la pantalla
+
+
+## SECCIÓN 5: Entrega y documentación final
+
+### 5.1.-Justificación del diseño propuesto
+
+El diseño propuesto para mi aplicación llamada "Estilo Infantil" va enfocado a simplificar y agilizar el proceso de compra de productos infantiles para que los usuarios no tengan ningún tipo de problema a la hora de comprar y no haya ningún error
+
+### 5.2.-Recomendaciones y pasos a seguir
+
+Para la evolución futura del prototipo, algunas posibles mejoras son:
+
+* Diseñar variantes con estado deshabilitado para productos sin stock
+* Incorporar animaciones
+* Mejorar los filtros de compra
+
+
+## SECCIÓN 6: Referencias bibliográficas
+
+* Figma Help Center. (2024). *Create interactive components with variants*. Figma. https://help.figma.com/hc/en-us/articles/360056598374-Create-interactive-components-with-variants
+* Figma. (2024). *Guide to prototyping in Figma*. Figma. https://help.figma.com/hc/en-us/articles/360040314193-Guide-to-prototyping-in-Figma
+* Google. (2021). *Buttons – Material Design 3*. Material Design. https://m3.material.io/components/buttons/guidelines
+* Google. (2021). *Chips – Material Design 3*. Material Design. https://m3.material.io/components/chips/guidelines
+
+Palabra del día: 29
