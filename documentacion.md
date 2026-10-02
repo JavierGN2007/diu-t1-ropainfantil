@@ -144,6 +144,69 @@ flowchart TD
 * **surface/onSurface(Oscuro):** Ratio de 14.34
 * **error/onError(Oscuro):** Ratio de 7.71
 
+### 3.4.-Prototipo de alta fidelidad
+
+#### Pantalla 1: Inicio
+![01.-Inicio](capturas/prototipo/01.-Inicio.png)
+
+#### Pantalla 2: Catálogo
+![02.-Catálogo](capturas/prototipo/02.-Catálogo.png)
+
+#### Pantalla 3: Detalle de producto
+![03.-Detalle](capturas/prototipo/03.-Detalle.png)
+
+#### Pantalla 4: Carrito de compra
+![04.-Carrito](capturas/prototipo/04.-Carrito.png)
+
+#### Pantalla 5: Checkout
+![05.-Checkout](capturas/prototipo/05.-Checkout.png)
+
+#### Pantalla 6: Confirmación
+![06.-Confirmación](capturas/prototipo/06.-Confirmación.png)
+
+#### Pantalla 7: Perfil
+![07.-Perfil](capturas/prototipo/07.-Perfil.png)
 
 
 Palabra del día: 29
+
+
+## SECCIÓN 4: Validación y pruebas
+
+### 4.1.-Metodología
+
+Las pruebas realizadas sobre el prototipo interactivo de Figma:
+
+* **Tarea 1:** Localizar el "Body algodón orgánico" desde el catálogo y revisar sus imágenes.
+
+* **Tarea 2:** Seleccionar la talla de 6 meses (6m) asegurando que queda marcada únicamente esa opción.
+
+* **Tarea 3:** Añadir el body al carrito y completar el flujo hasta la pantalla de confirmación.
+
+### 4.2.-Resultados
+
+#### Tarea 1
+
+* **Compañero 1:** Con éxito en 8 segundos y sin errores
+* **Compañero 2:** Con éxito en 9 segundos y sin errores
+
+#### Tarea 2
+
+* **Compañero 1:** Con éxito en 6 segundos y sin errores
+* **Compañero 2:** Con éxito en 5 segundos y sin errores
+
+#### Tarea 3
+
+* **Compañero 1:** Con éxito en 19 segundos y sin errores
+* **Compañero 2:** Con éxito en 15 segundos y sin errores
+
+#### Hallazgos claves
+
+* El selector de tallas funciona de manera predecible, eficiente e intuitiva
+* La navegación en el catálogo es buena debido a la buena jerarquía visual de las tarjetas
+* El botón de "Añadir al carrito" podría verse mejor usando un contenedor sólido de Material 3 Design
+
+
+### 4.3.-Iteraciones y mejoras
+
+Se ha mejorado el botón "Añadir al carrito" para que mantenga una estética similar al resto de botones de la aplicación y dejar claro cual es la acción principal de la pantalla
