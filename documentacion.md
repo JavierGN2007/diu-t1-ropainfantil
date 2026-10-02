@@ -52,7 +52,7 @@ Compra usando gafas para poder ver la pantalla y quiere hacerle un regalo a su n
 ### 2.3.-Análisis de la competencia
 
 
-| Competidor | Qué hace bien | Qué hace mal | Qué nos llevamos para Pequeños Pasos |
+| Competidor | Qué hace bien | Qué hace mal | Qué nos llevamos para Estilo Infantil |
 | :--- | :--- | :--- | :--- |
 | **Mayoral** | Categorización muy detallada por tramos de meses y edades en el menú inicial. | Los filtros son pequeños y difíciles de tocar a una mano, además de que la guía de tallas es un enlace externo lento que saca al usuario del flujo. | Filtros mediante Filter Chips táctiles y apertura de guía de tallas sin salir de la ficha. |
 | **Zara Kids** | Estética visual limpia y navegación por gestos moderna. | Textos grises con muy bajo contraste, iconos sin etiqueta y botones fuera de la zona accesible del pulgar. | Mantener un aspecto limpio pero aplicando ratios de contraste y Navigation Bar. |
